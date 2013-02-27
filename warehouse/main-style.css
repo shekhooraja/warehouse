@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+a
+{
+	color:#575757;
+	text-decoration:none;
+}
+	a:hover
+	{
+		color:#00b1ce;
+	}
+
+button, input[type=submit]
+{
+	padding:5px 10px 5px 10px;
+	background-color:#77b300;
+	border:none;
+	color:#FFF;
+}
+
+	button:hover, input[type=submit]:hover
+	{
+		background-color:#94de00;
+	}
+
+input[type=text], input[type=password]
+{
+	width:200px;
+	height:20px;
+	background-color:#FFFFFF;
+	border:none;
+}
+
+input[type=text]:focus, input[type=password]:focus
+{
+	background-color:#FFFFCC;
+}
+
+td
+{
+	padding:2px 5px 2px 5px;
+}
+
+td button, td input[type=submit]
+{
+	width:100%;
+}
+
+.section-close
+{
+	opacity:0.6;
+}
+
+.section-close:hover
+{
+	opacity:1.0;
+}
+
+@font-face
+{
+	font-family:general-font;
+	src:url('Roboto-Light.ttf');
+}
+
+#main-wrapper
+{
+	width:100%;
+	height:auto;
+	font-family:general-font;
+	color:#575757;
+	font-size:12px;
+	padding-top:36px;
+	padding-bottom:36px;
+}
+
+#content-wrapper
+{
+	width:800px;
+	height:auto;
+}
+
+#heading-text
+{
+	width:100%;
+	height:15px;
+	margin-bottom:50px;
+	text-align:left;
+}
+
+
+
+#main-nav
+{
+	width:100%;
+	height:100px;
+}
+
+#main-nav-buttons
+{
+	width:750px;
+	padding-left:50px;
+	height:100%;
+	display:inline-block;
+	margin:0px;
+}
+
+
+	
+	#main-nav-buttons a img
+	{
+		opacity:0.6;
+		position:relative;
+		top:0px;
+	}
+	
+	#main-nav-buttons a img:hover
+	{
+		top:-50px;
+	}
+	
+	#main-nav-buttons img
+	{
+		width:100px;
+		height:100px;
+		border:none;
+		float:left;
+		margin-right:20px;
+		opacity:0.6;
+		position:relative;
+		top:0px;
+	}
+
+#main-nav-cover
+{
+	background-image:url(images/main-nav-cover.png);
+	background-repeat:repeat-x;
+	height:60px;
+	position:relative;
+	top:-60px;
+	
+}
+
+#page-content
+{
+	width:95%;
+	padding:2.5%;
+	height:auto;
+	background-color:#b6f2fc;
+	display:inline-block;
+}
+
+#page-nav
+{
+	width:100%;
+	text-align:left;
+	height:15px;
+	margin-bottom:25px;
+}
+
+#page-nav a
+{
+	margin:0px 10px 0px 10px;
+}
+
+
+.page-section
+{
+	width:100%;
+	min-height:20px;
+	display:block;
+}
+
+	.page-section tr:nth-child(even)
+	{
+		background-color:#dbf9fe;
+	}
+	
+	.page-section tr:nth-child(odd)
+	{
+		background-color:#9ecbd3;
+	}
+	
